@@ -1,0 +1,10 @@
+.CardList {
+  padding: 0 2.5% 0;
+
+  &__Container {
+    display: grid;
+    gap: 2.5vw;
+    place-content: center;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

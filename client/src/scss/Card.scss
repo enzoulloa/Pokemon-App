@@ -1,0 +1,191 @@
+:root {
+  --grass: #5FBD58;
+  --bug: #92BC2C;
+  --dark: #595761;
+  --dragon: #0C69C8;
+  --electric: #F2D94E;
+  --fairy: #EE90E6;
+  --fighting: #D3425F;
+  --fire: #dc872f;
+  --flying: #A1BBEC;
+  --ghost: #5F6DBC;
+  --ground: #DA7C4D;
+  --ice: #75D0C1;
+  --normal: #A0A29F;
+  --poison: #B763CF;
+  --psychic: #ff2ca8;
+  --rock: #a38c21;
+  --steel: #5695A3;
+  --water: #539DDF;
+}
+
+.Card {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  
+  margin: 1rem;
+  padding: 4rem;
+  width: 100%;
+  min-width: 100%;
+  height: 50vh;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  z-index: 10;
+
+  &__Img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    object-fit: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  &__Img img{
+    width: 25rem;
+    height: auto;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    backface-visibility: hidden;
+    margin-bottom: 1rem;
+  }
+
+  &__Text {
+    font-size: 1.5rem;
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+
+    &--Title {
+      margin: 1rem;
+      color: #fff;
+      font-size: 3rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+
+    &--Types {
+      text-transform: capitalize;
+      font-size: 1.4rem;
+      width: 100%;
+      align-items: center;
+    }
+    img{
+      position: absolute;
+    }
+        p {
+          font-size: 2rem;
+          border-radius: 10px;
+          text-transform: capitalize;
+        
+        }
+    
+        p:nth-child(2) {
+          margin-left: 20px;
+        }
+
+        img{
+          width: 30px;
+        }
+
+    &--Link {
+      align-items: baseline;
+      justify-content: baseline;
+      justify-items: baseline;
+      width: 50%;
+      padding: 8px 16px;
+      color: white;
+      margin: 20px auto;
+      background-color: #292d2f;
+      border: 1px solid #181B1D;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 1.6rem;
+      cursor:pointer;
+    }
+  }
+}
+
+.grass {
+  background : var(--grass);
+}
+
+.bug {
+  background: var(--bug);
+}
+
+.dark {
+  background: var(--dark);
+}
+
+.dragon {
+  background: var(--dragon);
+}
+
+.electric {
+  background: var(--electric);
+}
+
+.fairy {
+  background: var(--fairy);
+}
+
+.fighting {
+  background: var(--fighting);
+}
+
+.flying {
+  background: var(--flying);
+}
+
+.ghost {
+  background: var(--ghost);
+}
+
+.ground {
+  background: var(--ground);
+}
+
+.ice {
+  background: var(--ice);
+
+}
+
+.normal {
+  background: var(--normal);
+
+}
+
+.poison {
+  background-color: var(--poison);
+}
+
+.psychic {
+  background: var(--psychic);
+
+}
+
+.rock {
+  background: var(--rock);
+
+}
+
+.steel {
+  background: var(--steel);
+}
+
+.water {
+  background: var(--water);
+
+}
+
+.fire {
+  background: var(--fire);
+}

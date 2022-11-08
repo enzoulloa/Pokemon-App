@@ -1,0 +1,36 @@
+.NotFound {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+
+  position: fixed;
+
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+
+  background-size: auto;
+  background-color: #181B1D;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/error.gif");
+
+  h1 {
+    color: #d3d3d3;
+    font-size: 3rem;
+  }
+
+  a {
+    position: relative;
+    padding: 8px 16px;
+    border-radius: 10px;
+
+    color: #181B1D;
+    font-weight: 700;
+    font-size: 2rem;
+
+    background-color: #ffffff;
+  }
+}

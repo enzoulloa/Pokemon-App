@@ -1,0 +1,25 @@
+.Pagination {
+  padding: 2.5%;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    li {
+      
+      background-color: #292d2f;
+      border: 1px solid black;
+
+      button {
+        cursor: pointer;
+        color: white;
+        font: inherit;
+        padding: 7px 14px;
+        font-size: 1.4rem;
+      }
+      button::hover{
+        background-color: #3f4041;
+      }
+    }
+  }
+}

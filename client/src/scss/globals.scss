@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  letter-spacing: 0.75px;
+
+  background-color: #181B1D;
+}
+
+a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button {
+  border: none;
+  font: inherit;
+  outline: none;
+  display: block;
+  appearance: none;
+  background: none;
+}
+.container{
+  display: flex;
+}
+.navbar{
+  width: 80%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 100px;
+}
+.CreateHome {
+  width: 30%;
+  padding: 8px 16px;
+
+  color: #FCFFFF;
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  background-color: #292d2f;
+  border: 1px solid #181B1D;
+  border-radius: 10px;
+
+}

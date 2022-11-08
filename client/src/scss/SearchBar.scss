@@ -1,0 +1,42 @@
+.Search {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+
+  &__Input {
+    border-radius: 10px;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 1.6rem;
+    background-color: #fffffd;
+  }
+
+  &__Button {
+    padding: 8px 16px;
+
+    border: 1px solid #181B1D;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+    background-color: #292d2f;
+  }
+
+  &__Input::placeholder {
+    color: #181B1D;
+  }
+}
+
+@media (min-width: 768px) {
+  .Search {
+    padding: 2.5%;
+
+    &__Input {
+      margin-right: 2.5%;
+    }
+  }
+}
